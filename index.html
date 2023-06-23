@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CompanyIQ</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="topo">
+
+            <img src="imgs/menu.svg" alt="" id="burger" onclick="clickMenu">
+            
+            <menu id="itens" class="menu">
+                <ul>
+                    <li><a>Action</a></li>
+                    <li><a>Another action</a></li>
+                    <li><a>Something else here</a></li>
+                </ul>
+                <div class="topoRedesocial">
+                    <img src="imgs/facebook.svg" alt="">
+                    <img src="imgs/linkedin.svg" alt="">
+                    <img src="imgs/twitter.svg" alt="">
+                    <img src="imgs/zap.svg" alt="">
+                </div>
+            </menu>
+            <div class="topoInicio">
+              
+                <div><img src="imgs/logo.png" alt=""></div>
+                <div>
+                    <p class="topoTitle">Welcome To Company IQ</p></div>                
+                    <p class="topoDescription">Lorem ipsum dolor sit amet consectetur adipisicing adipisicing</p>
+                </div>
+                <div class="topoButons">
+                    <button class="viewMore">VIEW MORE</button>
+                    <button class="demo">DEMO</button>
+                </div>
+            </div>
+
+        </header>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
